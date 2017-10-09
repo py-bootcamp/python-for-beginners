@@ -4,29 +4,24 @@
 
 A 1 day workshop (8 hours) about Python.
 
-- be sure that you follow the [installation process](/installation.md)
+- be sure that you follow the [installation process](/installation.md).
 
 ## Workshop
 
-1. [Python & Jupyter](/notebooks/first_part.ipynb)
-2. [Main concepts of Python](/notebooks/second_part.ipynb)
-3. [Built-in functions](/notebooks/third_part.ipynb)
-4. [Share your code and code together](/notebooks/fourth_part.ipynb)
-
 The course is divided in 4 modules:
 
-- Python & Jupyter
+- [Python & Jupyter](/notebooks/part_1.ipynb)
     - What is Python
     - What is Jupyter
     - How to run and save your code
-- Main concepts of Python
+- [Main concepts of Python](/notebooks/part_2.ipynb)
     - Variables and types in Python
     - Loops and flow controls
     - Functions and modules
-- Built-in functions
-    - what is a built-in function?
+- [Built-in functions](/notebooks/part_3.ipynb)
+    - What is a built-in function?
     - When and how to use the built-in functions
-- Share your code and code together
+- [Share your code and code together](/notebooks/part_4.ipynb)
     - What is Git
     - How to share your code on Github
     - Pair programming and code review
@@ -51,4 +46,9 @@ The course is divided in 4 modules:
 
 
 ## Questions?
+
 We are here to help: **hello@pybootcamp.com**
+
+## Credits
+
+This course is based and inspired by the Software Carpentry Workshops

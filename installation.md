@@ -1,3 +1,13 @@
+# Things you need to have before starting this workshop
+
+1. A computer
+2. [Python and Anaconda](#installing-python-and-anaconda)
+3. [Visual Studio Code](#installing-visual-studio-code)
+4. [A Github account](#create-a-github-account)
+5. [Git](#installing-git)
+
+Now you are ready 👍
+
 ## Installing `Python` and `Anaconda`
 ---
 
@@ -51,8 +61,6 @@ and then press tab. The name of the file you just downloaded should appear.
 ---
 
 
-This installation tutorial is taken from [Software Carpentry](http://swcarpentry.github.io/workshop-template/#setup)
-
 ## Installing Visual Studio Code
 ---
 
@@ -91,14 +99,54 @@ We decided to use [Visual Studio Code]()https://code.visualstudio.com/download
 ---
 
 
-
 ## Create a github account
 ---
 
 You need to have a [github.com](https://github.com/join?source=login) account. Creating an account is for free. You will need to use the same email and password you used during the course, so please rememeber them 👍.
 
+## Installing Git
+---
+
+Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. You will need a supported web browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
 
 ---
+
+### Windows
+
+[Videotutorial](https://www.youtube.com/watch?v=339AEqk9c-8)
+1. Download the [Git for Windows installer](https://git-for-windows.github.io/).
+2. Run the installer and follow the steps bellow:
+    1. Click on "Next".
+    2. Click on "Next".
+    3. Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
+    If you forgot to do this programs that you need for the workshop will not work properly. **If this happens rerun the installer and select the appropriate option.**
+    4. Click on "Next".
+    5. Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+    6. Keep "Use Windows' default console window" selected and click on "Next".
+    7. Click on "Install".
+    8. Click on "Finish".
+3. If your "HOME" environment variable is not set (or you don't know what this is):
+    1. Open command prompt (Open Start Menu then type cmd and press [Enter])
+    2. Type the following line into the command prompt window exactly as shown: setx HOME "%USERPROFILE%"
+    3. Press [Enter], you should see SUCCESS: Specified value was saved.
+    4. Quit command prompt by typing exit then pressing [Enter]
+This will provide you with both Git and Bash in the Git Bash program.
+
+---
+
+### Mac OSX
+
+[Video Tutorial](https://www.youtube.com/watch?v=9LQhwETCdwY)
+For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from [here](https://git-scm.com/download/mac) After installing Git, there will not be anything in your /Applications folder, as Git is a command line program. For older versions of OS X (10.5-10.8) use the most recent available installer labelled "snow-leopard" available here.
+
+---
+
+### Linux
+
+If Git is not already available on your machine you can try to install it via your distro's package manager. For Debian/Ubuntu run sudo apt-get install git and for Fedora run sudo yum install git.
+
+---
+
 
 If something went wrong, breath, relax, prepare a good coffee and send us an email: **hello@pybootcamp.com**
 
