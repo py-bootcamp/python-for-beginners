@@ -61,7 +61,7 @@ and then press tab. The name of the file you just downloaded should appear.
 ---
 
 
-## Installing Visual Studio Code
+## Installing `Visual Studio Code`
 ---
 
 There are many editors available, some of them specifically just for Python.
@@ -99,12 +99,12 @@ We decided to use [Visual Studio Code]()https://code.visualstudio.com/download
 ---
 
 
-## Create a github account
+## Create a `Github` account
 ---
 
 You need to have a [github.com](https://github.com/join?source=login) account. Creating an account is for free. You will need to use the same email and password you used during the course, so please rememeber them 👍.
 
-## Installing Git
+## Installing `Git`
 ---
 
 Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. You will need a supported web browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
